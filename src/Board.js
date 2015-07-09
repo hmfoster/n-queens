@@ -114,9 +114,9 @@
       var rows =  this.rows();
 
       var column = _.map(rows, function(row){
+
         return row[colIndex];
       });
-
       return _.reduce(column, sum) > 1 ? true : false;
       // this.hasRowConflictAt.call(column,)
     },
@@ -129,8 +129,8 @@
         if (this.hasColConflictAt(i)) {
           return true;
         }
-        return false;
       }
+      return false;
     },
 
 
