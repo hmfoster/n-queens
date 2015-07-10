@@ -168,7 +168,7 @@
             return true;
           }
         }
-      };
+      }
 
 
       return false;
